@@ -1,0 +1,324 @@
+charset "utf-8";
+/*==============================================| HTML & BODY |=============================================*/
+/*html page*/
+html {width: 100% height: 100%}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body { background:url(image/1.jpg); background-attachment:fixed; width:100%; height:100%; margin:0; padding:0;font-family:Calibri; }
+::selection{background:#5EFE57;}
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| Title bar |===============================================*/
+.titlebar{ background: url(image/twitter_web_sprite_bgs.png);position:fixed; height: 45px; top:1px; width:100%;}
+/*#tbar{background: url(image/sprite-images.png) -3px -361px  repeat-x;width:1000px; margin:auto;}
+#tcont{font-size:35px;color:#462A06;height:45px;font-weight:900;margin-left:730px;  background: url(image/bgb-bar.png) no-repeat;}
+*/
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| Wrapper class |===========================================*/
+.Wrapper { margin:auto; width: 1000px; }
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| Header class |============================================*/
+
+.headerR {float: right;  padding: 0 0 0 0; position:fixed; top:2px; right:50px;}
+/*----------------------------------------------| Social Net |----------------------------------------------*/
+.social { padding:5px 5px 5px 5px;}
+a img.fb  {background: url(image/social.png) no-repeat 0 0;     width: 32px; height: 35px; border: none;}
+a img.twt {background: url(image/social.png) no-repeat 0 -36px; width: 32px; height: 35px; border: none;}
+a img.gp  {background: url(image/social.png) no-repeat 0 -111px;width: 32px; height: 35px; border: none;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.header  {background:rgba(62, 57, 25, 100); width: 1000px;margin:2px; height: 100px;padding-top:100px; border-top-left-radius:20px 20px;border-top-right-radius:20px 20px;font-family: Lucida Grande, Helvetica, sans-serif;}
+#hd  {background:rgba(0, 0, 0, .50); width: 1000px; height: 100px;font-family: Lucida Grande, Helvetica, sans-serif;}
+.headerL {float: left; font-size:65px; font-weight:bold; padding:0 0 0 40px;/*text-shadow: 1px 1px 1px #eee, 3px 3px 0px #707070*/text-shadow: 1px 2px 3px #ccc;}
+.logo    {background: url(image/oc.png) no-repeat 0 0; text-decoration: none; padding: 8px 0px 40px 150px;}
+/*__________________________________________________________________________________________________________*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*=================================| Middle Part |======================================*/
+div.background{box-shadow:5px 10px 50px 10px #000 ;background:url(image/wash-white-30.png); height:450px; width:100%; padding-top:10px; margin:0 2px 0 2px ; }
+div.backgroundd{box-shadow:5px 10px 50px 10px #000 ;background:url(image/wash-white-30.png); height:700px; width:100%; padding-top:10px; margin:0 2px 0 2px ;border-bottom-radius:5px 5px; border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;}
+div.background2{background:url(image/wash-white-30.png); height:550px; width:100%; padding-top:10px; margin:px; border-bottom-radius:5px 5px;}
+/*_________________________________________________________________________________________________________*/
+
+/*==============================================| Footer of the Page|======================================*/
+.footer {background-color: #5EFE57;box-shadow:5px -20px 50px 0px #fff inset ;font-size:25px; width:1000px; height:50px; border:1px solid #000;margin:3px 0 12px 0;text-align:center;  padding: 5px 0 0 2px;border-radius: 0 0 10px 10px;}
+/*_________________________________________________________________________________________________________*/
+/*++++++++++++++++++++++++++++++++++++++++++++++|Common style of the page Ended|===========================*/
+/*==============================================| endividual style for Page|===============================*/
+/*==============================================| Style For Home Page |====================================*/
+div.transbox {box-shadow:2px 10px 40px 25px rgba(15, 236, 50, 0.48) inset;background:rgba(225, 200, 225, .30); width:95%; height:250px; margin:auto; border-radius:50px 50px; /*opacity:0.8; filter:alpha(opacity=60);*/}
+div.transbox p{ font-size:22px;	 color:#41b5ff; padding:2px 12px 0 12px;}
+h2{color:#FFFFFF;}
+/*----------------------------------------------| Button of HOME |------------------------------------------*/
+#cont{margin:12px 250px 2px 250px;}
+#cont ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#000000;}
+#cont li{ float:left;  padding: 15px;color:#000000;	width:200px;}
+#cont ul li a{	color:#000000;	padding-top:12px;}
+#cont li a:link{background: url(image/mc/t1.png) center no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;-webkit-transition:background .1s;}
+#cont li a:visited{ background: url(image/mc/t1.png) center no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+#cont li a:hover{ background: url(image/mc/t2.png) center no-repeat; color: #000000; text-decoration: none;}
+/*__________________________________________________________________________________________________________*/
+
+
+/*==============================================| Style For Login Page |====================================*/
+
+
+#login {background:url(image/tut/loginn.jpg)top no-repeat; height:300px; width:410px; border:solid 1px #ffffff; float:right; margin:100px 280px 0 0;border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#content {background: url(image/) ; width:100%;margin:100px 0 0 0;height:200px;}
+/*.login-info {line-height:35px;color:#fff;padding:0 0 0 15px;}
+.input {line-height:20px;float:right;width:250px; font-size:18px;margin-right:15px;}
+.log-inputL{line-height:25px;margin-right:15px; float:right;color:#000;}
+.sbL{float:right; margin:25px 0 0 2px}
+.loginbS {background: url(image/mc/t4.png) center no-repeat ;cursor:pointer;width:132px;border: none; text-align:center;text-decoration:none;height:34px;font-weight:normal;font-size:24px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+*//*__________________________________________________________________________________________________________*/
+
+/*==============================================| Style For Login1 Page |====================================*/
+#login1 {box-shadow:5px 0px 45px 15px #000 ;background:url(image/loginbg.png)center no-repeat; width:400px; height:345px; /*border:solid 1px #0064fa;*/ float:right; margin:80px 300px 0 0;border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#contents{ width:100%;margin:45px 0 0 45px;height:200px;}
+.input {background:rgb(40, 48, 59);border-bottom-left-radius:20px 20px;border-top-right-radius:20px 20x; color:orange;line-height:27px;width:280px; margin-top: 18px;margin-left:6px;padding-bottom:5px; padding-left:5px;font-size:25px; border:rgba();}
+.inputs{background:rgb(40, 48, 59);border-bottom-left-radius:20px 20px;border-top-right-radius:20px 20px;color:orange;line-height:27px;width:280px; margin-top: 20px;margin-left:6px;padding-bottom:5px;padding-left:5px; font-size:25px; border:rgba();}
+.loginbS {background:rgb(158, 175, 197);cursor:pointer;height:35px;float:left; margin:30px 0 0 100px;border:1px solid ;width:100px;height:37px; border-radius:10px 10px;box-shadow:2px 2px 8px 0px #fff ;color:#2D3442;font-size:25px;}
+#contents ul{display:block; margin-top:100px; }
+#contents li{float:left; width:85%;list-style:none;}
+#contents  li a:link {box-shadow:0 0 32px 0 #fff inset ;background:rgb(40, 48, 59);border-radius:5px 5px;   height:35px;padding:0 ; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;-webkit-transition:background 1s;}
+#contents  li a:visited {box-shadow:0 0 32px 0 #fff inset ;background:rgb(40, 48, 59);border-radius:5px 5px;  margin-right:2px; height:35px;padding:0 ; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;}
+#contents  li a:hover {box-shadow:0 0 22px 0 #fff inset ; background:black;border-radius:5px 5px;   height:35px;padding:0 ; display: block;font-weight:normal; color:#fff; text-align:center; text-decoration:none; text-transform: uppercase; -webkit-transition:background 0.6s;}
+.12{padding-bottom:2px;}
+
+ .lfta{margin-left:65px;}
+/*==============================================| Style For register Page |=================================*/
+.flip{background:url(image/header_b.png);}
+#register{background:url(image/stripe.png);  width:450px; margin:10px 280px 0 0;	border:1px solid #fff;float:right; border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#registerd{}
+#reg-content{margin:1px 22px 0 10px;}
+
+.orline{text-align:center; width:450px; margin:auto; border-top:solid 1px #ffffff; border-bottom:solid 1px #ffffff;}
+.reg-info{line-height:30px;color:#fff;height:28px;}
+.reg-input{line-height:20px;float:right;width:250px; height:24px;}
+.reg-inputR{line-height:20px; float:right;color:#fff;}
+.sbR{float:right; padding:15px 0 0 0;}
+.regS{background: url(image/mc/t4.png) center no-repeat; cursor:pointer;width:130px; border:none; text-align:center; text-decoration:none; height:35px; font-weight:normal; font-size:23px; font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+/*__________________________________________________________________________________________________________*/
+.admin{background:url(image/admin.png)top no-repeat;box-shadow:0 -10px 65px 25px #ccc inset ; height:410px; width:800px; border: solid 1px  #ccc;  margin:15px 0 0 100px;border-radius:10px 10px;}
+#admbtn{margin:150px 0 0 120px;}
+#admbtn ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#admbtn li{ float:left;  padding:10px;color:#fff;	width:245px;}
+#admbtn ul li a{	color:#fff;	padding-top:12px;}
+#admbtn li a:link{background: url(image/adminbtnx.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#admbtn li a:visited{background: url(image/adminbtnx.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#admbtn li a:hover{ background: url(image/adminbtn.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+
+#h{ margin:150px 0 0 0;}
+#h ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#h li{ float:left; margin-top:10px; padding:10px;color:#fff;	width:245px;}
+#h ul li a{color:#fff;	padding-top:12px;}
+#h li a:link{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#h li a:visited{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#h li a:hover{ background: url(image/x1.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+#h1{ margin:0 0 0 150px;}
+#h1 ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#h1 li{ float:left; margin-left:80px; padding:20px;color:#fff;	width:245px;}
+#h1 ul li a{color:#fff;	padding-top:12px;}
+#h1 li a:link{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#h1 li a:visited{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#h1 li a:hover{ background: url(image/x1.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+#availability_status{padding-left:170px;}
+
+/*==============================================| Style For couns Page |====================================*/
+#Target{float:right;position:relative;}
+#cinfo{background:url(image/12.png); margin:15px; position:absolute;float:left; border-radius:10px 10px;}
+#cphoto {box-shadow:10px 10px 40px 5px black ;float:right;  border:10px solid #fff;margin-right:15px;}
+#unm{font-size:32px;text-align:center; color:white;padding-left:5px; padding-right:15px; }
+#unm1{font-size:32px;text-align:center; color:#0774F2; padding-left:15px; }
+#cl{background:rgba(8, 8, 8, .30);position:absolute; margin-top:20px;border-radius:10px 10px; margin-left:225px;float:right; padding:15px; border:solid 1px silver; box-shadow:5px 10px 60px 10px black ;}
+#cln-info{line-height:30px; border:solid 1px;}
+.cln-input{width:250px;}
+#bgp{border-bottom:solid  5px silver; height:220px;}
+
+/*meni bar*/
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+a:active{outline:none;}
+a:focus{-moz-outline-style:none;}
+a img{border:none;}
+
+div#holder{position: relative;width: 998px;
+	margin: 0 7px;	text-align: left;}
+
+ul#menu{	position: absolute;	top: 3px;left: 0;width:1000px;
+	height: 96px;background-image: url(image/3.JPG);background-repeat: no-repeat;
+	list-style-type: none;}
+ul#menu li, ul#menu li a{position: relative;	display: block; text-align:center;
+		float: left;width: 138px;height: 96px;overflow: hidden;
+}
+ul#menu li a img{	position: absolute;	top: -96px;	left: 0;}
+ul#menu li.selected a img{top:0;}	
+
+
+#l{position:absolute; margin:0 0 0 0;}
+#l ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#l li{ color:#fff;	width:245px;}
+#l ul li a{color:#fff;	padding-top:12px;}
+#l li a:link{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#l li a:visited{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#l li a:hover{ background: url(image/x1.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+
+.inputu{  color:#333;line-height:20px; border:none;float:right; line-height:22px;}
+.inbt{padding:20px;margin:5px 80px 0 0;float:right; width:150px; cursor:pointer;}
+#cln{background:#000;font-size:22px;color:#fff;}
+
+.f1 {background:rgba(238,238, 238, .70);
+ 	border: 1px solid #999;
+	padding: 0 1em 24px;
+	width:300px;
+	height:250px;
+	margin: 2em auto;
+	box-shadow:5px 10px 40px 8px #000 ;
+	border-radius:20px 20px;}
+
+.meter { 
+			height: 20px;  /* Can be anything */
+			position: relative;
+			margin: 60px 0 20px 0; /* Just for demo spacing */
+			background: #555;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			padding: 10px;
+			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+			-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			background-color: rgb(43,194,83);
+			background-image: -webkit-gradient(
+			  linear,
+			  left bottom,
+			  left top,
+			  color-stop(0, rgb(43,194,83)),
+			  color-stop(1, rgb(84,240,84))
+			 );
+			background-image: -moz-linear-gradient(
+			  center bottom,
+			  rgb(43,194,83) 37%,
+			  rgb(84,240,84) 69%
+			 );
+			-webkit-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			-moz-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			position: relative;
+			overflow: hidden;
+		}
+		.meter > span:after, .animate > span > span {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			background-image: 
+			   -webkit-gradient(linear, 0 0, 100% 100%, 
+			      color-stop(.25, rgba(255, 255, 255, .2)), 
+			      color-stop(.25, transparent), color-stop(.5, transparent), 
+			      color-stop(.5, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, transparent), to(transparent)
+			   );
+			background-image: 
+				-moz-linear-gradient(
+				  -45deg, 
+			      rgba(255, 255, 255, .2) 25%, 
+			      transparent 25%, 
+			      transparent 50%, 
+			      rgba(255, 255, 255, .2) 50%, 
+			      rgba(255, 255, 255, .2) 75%, 
+			      transparent 75%, 
+			      transparent
+			   );
+			z-index: 1;
+			-webkit-background-size: 50px 50px;
+			-moz-background-size: 50px 50px;
+			background-size: 50px 50px;
+			-webkit-animation: move 2s linear infinite;
+			-moz-animation: move 2s linear infinite;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			overflow: hidden;
+		}
+		
+		.animate > span:after {
+			display: none;
+		}
+		
+		@-webkit-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+		
+		@-moz-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+		
+		
+		.orange > span {
+			background-color: #f1a165;
+			background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+			background-image: -webkit-linear-gradient(#f1a165, #f36d0a); 
+		}
+		
+		.red > span {
+			background-color: #f0a3a3;
+			background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+			background-image: -webkit-linear-gradient(#f0a3a3, #f42323);
+		}
+		
+		.nostripes > span > span, .nostripes > span:after {
+			-webkit-animation: none;
+			-moz-animation: none;
+			background-image: none;
+		}
+#content1 {width:400px; height:345px; margin:11px 0 0 302px;}
+#content1 {box-shadow:0 0 32px 0 #fff inset ;background:rgb(40, 48, 59);border-bottom-left-radius:75px 75px;border-bottom-right-radius:75px 75px;}
+#content1  li {box-shadow:0 0 32px 0 #fff inset ;background:rgb(40, 48, 59);border-radius:5px 5px; width:150px;  margin-top:15px ; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;list-style:none;}
+#content1  li a:link {box-shadow:0 0 32px 0 #fff inset ;background:rgb(40, 48, 59);border-radius:5px 5px;   height:35px;padding:0 ; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;list-style:none;}
+#content1  li a:visited {box-shadow:0 0 32px 0 #fff inset ;background:rgb(40, 48, 59);border-radius:5px 5px;  margin-right:2px; height:35px;padding:0 ; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;}
+#content1  li a:hover {box-shadow:0 0 22px 0 #fff inset ; background:black;border-radius:5px 5px;   height:35px;padding:0 ; display: block;font-weight:normal; color:#fff; text-align:center; text-decoration:none; text-transform: uppercase; }
