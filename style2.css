@@ -1,0 +1,151 @@
+
+charset "utf-8";
+/*==============================================| HTML & BODY |=============================================*/
+/*html page*/
+html {width: 100% height: 100%}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body { background:url(image/bg4_1440x900.jpg);background-color:#FFB6C1; background-attachment:fixed; width:100%; height:100%; margin:0; padding:0;font-family:Calibri; }
+
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| Title bar |===============================================*/
+.titlebar{ background: url(image/twitter_web_sprite_bgs.png);position:fixed; height: 45px; top:1px; width:100%;}
+/*#tbar{background: url(image/sprite-images.png) -3px -361px  repeat-x;width:1000px; margin:auto;}
+#tcont{font-size:35px;color:#462A06;height:45px;font-weight:900;margin-left:730px;  background: url(image/bgb-bar.png) no-repeat;}
+*/
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| Wrapper class |===========================================*/
+.Wrapper { margin:auto; width: 1000px; margin-top:50px;}
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| Header class |============================================*/
+
+.headerR {float: right;  padding: 0 0 0 0; position:fixed; top:2px; right:50px;}
+/*----------------------------------------------| Social Net |----------------------------------------------*/
+.social { padding:5px 5px 5px 5px;}
+a img.fb  {background: url(image/social.png) no-repeat 0 0;     width: 32px; height: 35px; border: none;}
+a img.twt {background: url(image/social.png) no-repeat 0 -36px; width: 32px; height: 35px; border: none;}
+a img.gp  {background: url(image/social.png) no-repeat 0 -111px;width: 32px; height: 35px; border: none;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.header  {background:rgba(8, 8, 8, .70); width: 1000px; height: 140px; border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;font-family: Lucida Grande, Helvetica, sans-serif;}
+.headerL {float: left; font-size:67px; font-weight:bold; padding:2px 0 0 35px;/*text-shadow: 1px 1px 1px #eee, 3px 3px 0px #707070*/text-shadow: 1px 2px 3px #ccc;}
+.logo    {background: url(image/oc.png) no-repeat 0 0; text-decoration: none; padding: 11px 0px 40px 150px;}
+
+/*__________________________________________________________________________________________________________*/
+
+/*==============================================| NAVIGATIN MENU BAR |======================================*/
+.menu {background:#898989 ; height:35px; width:1000px;font-family:Arial;  margin-top:1px;  margin-left:170px; font-weight:bold; border:1px solid orange; border-top-right-radius:5px 5px;border-bottom-right-radius:5px 5px;border-top-left-radius:5px 5px;border-bottom-left-radius:5px 5px; }
+.menu ul {background-color: #333333; height:35px; position:absolute; padding:0; margin:0; list-style:none; font-weight:bold; font-size:15px;}
+.menu li {background:#898989; float:left; padding:0;margin:0; width:auto;width:121px; border-right:#000000 solid 1px;}
+.menu li a:link {background: #898989 url(image/qp53sw.jpg) bottom right no-repeat; width:auto; margin:0; height:35px; paddig:0; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;}
+.menu li a:visited{color:#ffffff; height:35px;display: block; text-decoration: none;}
+.menu li a:hover, .menu ul li:hover a {background: #333333 url(image/separator.png) bottom center no-repeat; color: #41b5ff;text-decoration: none;border:1px solid white; border-top-right-radius:5px 5px;border-bottom-right-radius:5px 5px;border-top-left-radius:5px 5px;border-bottom-left-radius:5px 5px;}
+.menu li.active a { height:35px; background:#333333 url(image/separator.png) bottom center no-repeat; text-decoration: none;color: #43f40f;}
+.menu li ul {background-color: #333333;position: absolute; display: none;height: auto;padding:0px; margin: 0px;border: 0px;top:35px;z-index:180;}
+.menu li:hover ul {display: block; border-top-right-radius:5px 5px;border-bottom-right-radius:5px 5px;border-top-left-radius:5px 5px;border-bottom-left-radius:5px 5px;}
+.menu li li {background: #333333 url(image/nvxxqg.jpg) bottom left no-repeat; display: block;float: none;	margin: 0px; padding:2px 0 0 0 ; width: 225px;}
+.menu li:hover li a {background: none;}
+.menu li ul a {display: block;height:20px; width:500px; font-size:12px; font-style:normal; margin:0px; padding:2px 10px 0px 15px; text-align:center;}
+.menu li ul a:hover,
+.menu li ul li:hover a{background:#474747 url(image/separator 2.png)center left no-repeat;border:1px solid white;  color:#00ff00; text-decoration:none; }
+.menu p{clear:left;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*----------------------------------------------| SEARCH |-------------------------------------------------*/
+.search {float: right;}
+.searchInput {background:url(image/searchInput.png) repeat-x; width:200px;font-size:14px; border:none; padding:8px 7px; color:#CCC; float:left; margin: 3px 0 0 0;}
+.searchBtn {background:url(image/1330746505_Search.png) no-repeat; width:32px; height:32px; border:none; cursor:pointer; float: left;}
+/*_________________________________________________________________________________________________________*/
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*==============================================| Middle Part |============================================*/
+div.background{background:url(image/Feel_Fresh_In_Winter__-1024x768.jpg); height:530px; width:100%; padding-top:10px; margin:0 0 0 0 ; border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;}
+/*_________________________________________________________________________________________________________*/
+
+/*==============================================| Footer of the Page|======================================*/
+.footer {background-color: #3366cc; width:1000px; height:50px; border:1px solid #0066cc;margin:5px 0 12px 0;  padding: 5px 0 0 0;border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+/*_________________________________________________________________________________________________________*/
+/*++++++++++++++++++++++++++++++++++++++++++++++|Common style of the page Ended|===========================*/
+
+
+/*==============================================| endividual style for Page|===============================*/
+/*==============================================| Style For Home Page |====================================*/
+div.transbox {background:url(image/header.jpg); width:95%; height:300px; margin:50px 0 0 25px; border-radius:50px 50px; opacity:0.8; filter:alpha(opacity=60);}
+div.transbox p{ font-size:22px;	color:#41b5ff; padding:2px 12px 0 12px;}
+div.transbox h{  padding:2px}
+h2{color:#FFFFFF;}
+/*----------------------------------------------| Button of HOME |------------------------------------------*/
+#cont{margin:0 250px 2px 250px;}
+#cont ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#000000;}
+#cont li{ float:left;  padding: 15px;color:#000000;	width:200px;}
+#cont ul li a{	color:#000000;	padding-top:12px;}
+#cont li a:link{background: url(image/mc/t1.png) center no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#cont li a:hover{ background: url(image/mc/t2.png) center no-repeat; color: #000000; text-decoration: none;}
+/*__________________________________________________________________________________________________________*/
+
+
+/*==============================================| Style For Login Page |====================================*/
+
+
+#login {background:url(image/tut/loginn.jpg)top no-repeat; height:300px; width:410px; border:solid 1px #ffffff; float:right; margin:100px 280px 0 0;border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#content {background: url(image/) ; width:100%;margin:100px 0 0 0;height:200px;}
+/*.login-info {line-height:35px;color:#fff;padding:0 0 0 15px;}
+.input {line-height:20px;float:right;width:250px; font-size:18px;margin-right:15px;}
+.log-inputL{line-height:25px;margin-right:15px; float:right;color:#000;}
+.sbL{float:right; margin:25px 0 0 2px}
+.loginbS {background: url(image/mc/t4.png) center no-repeat ;cursor:pointer;width:132px;border: none; text-align:center;text-decoration:none;height:34px;font-weight:normal;font-size:24px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+*//*__________________________________________________________________________________________________________*/
+
+/*==============================================| Style For Login1 Page |====================================*/
+#login1 {background:url(image/loginps.png)top no-repeat; width:300px; height:325px; border:solid 1px #0064fa; float:right; margin:80px 340px 0 0;border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#contents{background: url(image/) ; width:100%;margin:80px 0 0 0;height:200px;}
+.input {background:none; color:orange;line-height:25px;width:280px; margin-top: 18px;margin-left:6px;padding-bottom:5px; padding-left:5px;font-size:18px; border:none;}
+.inputs{background:none;color:orange;line-height:25px;width:280px; margin-top: 43px;margin-left:6px;padding-bottom:5px;padding-left:5px; font-size:14px; border:none;}
+.loginbS {background:none;float:right;border:none;cursor:pointer;width:100px;height:32px; margin:30px 8px 0 0;}
+#contents ul{ position:absolute; margin-top:90px; padding-left:5px; list-style:none; }
+#contents li{float:left; }
+#contents  li a:link { background:none; width:130px; margin:0; height:35px;padding:0 ; display: block;font-weight:normal; color: #ffffff; text-align:center; text-decoration:none; text-transform: uppercase;}
+
+
+ .lfta{margin-left:65px;}
+/*==============================================| Style For register Page |=================================*/
+#register{background:url(image/text-bg.jpg);  width:450px;height:500px; margin:10px 280px 0 0;	border:1px solid #fff;float:right; border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#reg-content{margin:1px 22px 0 10px;}
+#content1 a:link{background:#00ff33;color: #000;   display: block;  font-weight:normal;  margin:5px 0 2px 0; text-align:center;text-decoration: none; padding: 8px 1px 7px 5px ;    font-weight: bold;  text-transform: uppercase;	width:auto;}
+#content1 a:hover{background:#df520e;color: #ffffff;}
+#content1 a:visited{color:#000;}
+.orline{text-align:center; width:450px; margin:auto; border-top:solid 1px #ffffff; border-bottom:solid 1px #ffffff;}
+.reg-info{line-height:30px;color:#000;}
+.reg-input{line-height:20px;float:right;width:250px; }
+.reg-inputR{line-height:20px; float:right;color:#000;}
+.sbR{float:right; padding:15px 0 0 0;}
+.regS{background: url(image/mc/t4.png) center no-repeat; cursor:pointer;width:130px; border:none; text-align:center; text-decoration:none; height:35px; font-weight:normal; font-size:23px; font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+/*__________________________________________________________________________________________________________*/
+.admin{background:url(image/admin.png)top no-repeat; height:430px; width:800px; border:solid 2px #222222;  margin:20px 0 0 100px;border-bottom-left-radius:10px 10px;border-bottom-right-radius:10px 10px;border-top-left-radius:10px 10px;border-top-right-radius:10px 10px;}
+#admbtn{margin:150px 0 0 0;}
+#admbtn ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#admbtn li{ float:left;  padding:10px;color:#fff;	width:245px;}
+#admbtn ul li a{	color:#fff;	padding-top:12px;}
+#admbtn li a:link{background: url(image/adminbtnx.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#admbtn li a:hover{ background: url(image/adminbtn.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+
+#h{ margin:0 0 0 0;}
+#h ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#h li{ float:left;  padding:10px;color:#fff;	width:245px;}
+#h ul li a{color:#fff;	padding-top:12px;}
+#h li a:link{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#h li a:hover{ background: url(image/x1.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+#h1{ margin:0 0 0 150px;}
+#h1 ul{list-style: none; margin: 0; padding:0; font-weight: bold; position:relative;	color:#fff;}
+#h1 li{ float:left;  padding:10px;color:#fff;	width:245px;}
+#h1 ul li a{color:#fff;	padding-top:12px;}
+#h1 li a:link{background: url(image/x2.png) no-repeat; height:52px; width:auto; display:block; margin:0px; text-align:center;text-decoration:none;  font-weight:normal; font-size:28px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;}
+#h1 li a:hover{ background: url(image/x1.png) center no-repeat;height:52px; width:auto;color: #fff; text-decoration: none;}
+#availability_status{padding-left:170px;}
+
+/*==============================================| Style For couns Page |====================================*/
+#cprof{}
+#cphoto{ border:solid 2px;width:200px;position:relative;}
+#cinfo{background:url(image/12.png); float:right; border-radius:10px 10px;margin:2px;}
+#unm{font-size:22px; color:white;padding-left:5px; padding-right:15px; }
+#unm1{font-size:22px; color:#0774F2; padding-left:15px; }
